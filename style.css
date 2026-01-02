@@ -4,6 +4,7 @@
     gap: 20px;
     padding: 20PX;
     background-color: rgb(239, 234, 228);
+    
 }
 
 #card{
@@ -13,11 +14,18 @@
     padding: 20px;
     padding-top: 20px;
     border-radius: 10px;
-
     
+
 }
 #card:hover{
     box-shadow: 5px 5px 5px gray,-5px -5px 5px gray;
+   
+
+    
+}
+#card:hover #description{
+    -webkit-line-clamp: unset; /* expand */
+    overflow: visible;
 }
 #image{
     width: 50%;
@@ -27,22 +35,25 @@
     
 }
 #title{
-    /* width: 90%; */
     height: 60px;
     overflow: hidden;
-     /* white-space: no-wrap; */
-     text-overflow: ellipsis;
+    text-overflow: ellipsis;
 }
 #description{
-     /* width: 90%; */
-     height: 150px;
+     /* height: 150px;
      overflow: hidden;
-     /* white-space: no-wrap; */
-     text-overflow: ellipsis;
+     text-overflow: ellipsis; */
+     height: 140px;
+
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 5;   /* number of lines */
+    overflow: hidden;
+    white-space: normal;
 }
+
 #flexing{
     display: flex;
-    /* width: 90%; */
     justify-content: space-between;
     color: rgb(105, 96, 96);
     

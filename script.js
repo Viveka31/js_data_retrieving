@@ -12,7 +12,7 @@ res.then((data) => data.json()).then((data1) =>
             
             var card=document.createElement("div");
             var image=document.createElement("img");
-             var title=document.createElement("h3");
+             var title=document.createElement("h4");
             var description=document.createElement("p");
             var flexing=document.createElement("div");
             var price=document.createElement("p");

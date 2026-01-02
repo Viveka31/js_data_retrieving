@@ -29,6 +29,7 @@
 #title{
     /* width: 90%; */
     height: 60px;
+   
     overflow: hidden;
      white-space: nowrap;
      text-overflow: ellipsis;
@@ -37,7 +38,7 @@
      /* width: 90%; */
      height: 150px;
      overflow: hidden;
-     white-space: no-wrap;
+     white-space: nowrap;
      text-overflow: ellipsis;
 }
 #flexing{

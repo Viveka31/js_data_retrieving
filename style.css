@@ -29,15 +29,16 @@
 #title{
     /* width: 90%; */
     height: 60px;
-   overflow: hidden;
-    
-     
+    overflow: hidden;
+     white-space: no-wrap;
+     text-overflow: ellipsis;
 }
 #description{
      /* width: 90%; */
      height: 150px;
      overflow: hidden;
-     
+     white-space: no-wrap;
+     text-overflow: ellipsis;
 }
 #flexing{
     display: flex;

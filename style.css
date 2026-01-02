@@ -29,13 +29,14 @@
 #title{
     /* width: 90%; */
     height: 60px;
-   
+   overflow: hidden;
     
      
 }
 #description{
      /* width: 90%; */
      height: 150px;
+     overflow: hidden;
      
 }
 #flexing{

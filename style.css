@@ -30,16 +30,13 @@
     /* width: 90%; */
     height: 60px;
    
-    overflow: hidden;
-     /* white-space: nowrap; */
-     text-overflow: ellipsis;
+    
+     
 }
 #description{
      /* width: 90%; */
      height: 150px;
-     overflow: hidden;
-     /* white-space: nowrap; */
-     text-overflow: ellipsis;
+     
 }
 #flexing{
     display: flex;
